@@ -36,7 +36,7 @@ const tabs = [
     backgroundPositionX: 100,
     backgroundPositionY: 27,
     backgroundSizeX: 177,
-  }
+  },
 ];
 
 function Product() {
@@ -78,8 +78,8 @@ function Product() {
         revolutionized the way businesses approach SEO.
       </p>
       <div className="w-full flex max-[720px]:flex-col  justify-between space-x-5 max-[720px]:space-x-0 max-[720px]:space-y-5">
-        {tabs.map((tab,tabIndex)=>(
-            <ProductShowcase
+        {tabs.map((tab, tabIndex) => (
+          <ProductShowcase
             selected={selectedTab === tabIndex}
             tab={tab}
             key={tab.title}
